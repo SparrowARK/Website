@@ -1,0 +1,48 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #07381e;
+	background-image: url(pic1.jpg);
+}
+nav{
+	width: 100%;
+	background-color: black;
+	overflow: auto;
+}
+ul{
+	padding: 0;
+	margin: 0 0 0 150px;
+	list-style: none;
+}
+li{
+	float: left;
+}
+.logo img{
+	position: absolute;
+	margin-top: 3px;
+	margin-left: 10px;
+}
+nav a{
+	width: 100px;
+	display: block;
+	padding: 20px 15px;
+	text-decoration: none;
+	font-family: Arial;
+	color: white;
+	text-align: center;
+}
+nav a:hover {
+	background-color: red;
+	transition: 0.3s;
+}
+label{
+	font-size: 25px;
+    color: #2baf00;
+}
+section{
+	margin: 5px 5px;
+	background-image: url(tact.jpg);
+    position: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
